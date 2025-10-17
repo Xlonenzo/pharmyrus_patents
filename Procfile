@@ -1,1 +1,1 @@
-worker: python busca_completa_patentscope.py
+web: uvicorn api:app --host 0.0.0.0 --port $PORT
