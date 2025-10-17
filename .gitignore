@@ -1,0 +1,113 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+inpi_scraper.log
+patentscope_scraper.log
+
+# Environment variables (contém credenciais)
+.env
+.env.local
+
+# Resultados e dados
+resultados/
+resultados_avancados/
+*.csv
+!requirements.txt
+
+# Screenshots de debug
+*.png
+debug_*.html
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Backup files
+*_backup_*.py
+*.bak
+
+# Test files
+test_*.py
+test_*.html
+exemplo_*.py
+teste_*.py
+
+# Documentation (mantém apenas README.md)
+COMO_*.md
+GUIA_*.md
+INDICE_*.md
+README_*.md
+REVISAO_*.md
+CORRECOES_*.md
+CORRECAO_*.md
+ESTRUTURA_*.md
+ORGANIZACAO.md
+DEPENDENCIAS.md
+RESUMO_*.md
+INICIO_*.md
+TROUBLESHOOTING_*.md
+POSTMAN_*.md
+REINICIAR_*.md
+!README.md
+
+# API e outros diretórios não necessários
+api/
+backend/
+frontend/
+arquivos_antigos/
+testes_antigos/
+cleanup/
+targets/
+static/
+
+# JSON temporários (exceto configurações)
+*_20*.json
+detalhes_marca_*.json
+relatorio_*.json
+test_detalhes_output.json
+patentscope_detail_campos.json
+!dicionario_termos.json
+
+# Outros arquivos temporários
+*.tmp
+nul
+*.bat
+*.sh
+postman_collection.json
